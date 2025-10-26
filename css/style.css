@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24353f ;
+    font-family: 'Titillium Web', sans-serif;
+    overflow: hidden;
+
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* login & signup */
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.h1, h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.form-control:focus {
+    color: #fff !important;
+    border-color: #80bdff;
+    outline: none !important;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+input, textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+input:focus, textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+input::placeholder{
+    color: #B6B6B6 !important;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-outline-info {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}
+.btn-outline-info:hover {
+    color: #fff;
+    
+}
+.signup-link{
+    text-decoration: none;
+}
+.signup-link:hover{
+    text-decoration: underline;
+}
+
+
+/* home */
+#home {
+    height: 75vh;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+/* home navbar */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem 1rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .1);
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* .collapse:not(.show) {
+    display: none;
+} */
+/* .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+} */
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+dl, ol, ul {
+    margin-top: 0;
+}
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .5);
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.btn-outline-warning {
+    background-color: transparent;
+    background-image: none;
+    border-radius: .25rem;
+   border: 1px solid #ffc107;
+}
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    outline: 1px solid #fff !important;
+}
+
+
+
+
+/* media queries */
+/* @media screen and (min-width: 576px) {
+    .container-fluid {
+        max-width: 540px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 80% !important;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        max-width: 720px !important;
+    }
+} */
+
+
+ 
+
+
