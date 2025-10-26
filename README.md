@@ -21,7 +21,7 @@ Provides convenience features for returning users.
 Responsive Design:
 Optimized for both desktop and mobile devices.
 
-Local Storage or Database Support:
+Local Storage :
 Stores user credentials either locally (in browser storage) .
 
 🛠️ Technologies Used
