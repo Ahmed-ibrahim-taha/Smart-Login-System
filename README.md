@@ -42,10 +42,3 @@ If incorrect, a friendly error message appears.
 
 the user can get password if he forget it by e-mail.
 
-
-💡 Example Use Cases
-
-Personal portfolio websites
-
-W
-Learning projects for form validation and local storage
